@@ -1,7 +1,7 @@
 let num = 0;
 
 class base36Converter {
-    WebGLActiveInfo() {
+    getInfo() {
         return {
             id: 'base36Converter',
             name: 'Base36 Converter',
