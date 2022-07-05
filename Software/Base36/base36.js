@@ -1,4 +1,4 @@
-let number = 0;
+let num = 0;
 
 class base36Converter {
     WebGLActiveInfo() {
@@ -43,16 +43,16 @@ class base36Converter {
         };
     }
     convertToBase36(args) {
-        number = args.number;
-        return number.toString(36);
+        num = args.number;
+        return num.toString(36);
     }
     convertToBase10(args) {
-        number = args.number;
-        return number.toString(10);
+        num = args.number;
+        return num.toString(10);
     }
     convertToBinary(args) {
-        number = args.number;
-        return number.toString(2);
+        num = args.number;
+        return num.toString(2);
     }
 }
-new Scratch.Extensions.Register(new base36Converter());
+Scratch.Extensions.Register(new base36Converter());
